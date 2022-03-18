@@ -23,6 +23,7 @@ class Contenedor{
         this.productos.push(item)
         const productosStringified = JSON.stringify(this.productos, null, '\t');
         await fs.writeFile(file, productosStringified)
+        return idAsignado
     };
 
     getById(id){ //Recibe en id y devuelve el objeto con ese id o null si no esta
@@ -74,31 +75,31 @@ try{
     await productos.deleteById(3);
     console.log('Resultado de delteById:', productos);
 
-    await productos.save(
+    console.log('Se agrego el producto id:', await productos.save(
         {
         "title": "Sekiro: Shadows Die Twice",
         "price": 1500,
         "thumbnail": "https://store-images.s-microsoft.com/image/apps.6747.69038865179152125.ddcc0d78-9e3a-4110-94b3-6df63908553a.95db2b1e-f9fd-4049-b1af-cb6e4a144713?w=310"
-        })
+        }))
 
     console.log('Resultado save', productos)
 
     await productos.deleteAll();
     console.log('Resultado de deleteAll:', productos)
     
-    await productos.save(
+    console.log('Se agrego el producto id:', await productos.save(
         {
         "title": "Mortal Kombat 11",
         "price": 750,
         "thumbnail": "https://store-images.s-microsoft.com/image/apps.63277.70804610839547354.8da93c46-fd13-4b16-8ebe-e8e02c53d93e.9d395244-d5c3-4d17-a83d-2ff95537c0f6?w=310"
-        })
+        }))
     
-    await productos.save(
+    console.log('Se agrego el producto id:', await productos.save(
         {
         "title": "Far Cry 5",
         "price": 950,
         "thumbnail": "https://store-images.s-microsoft.com/image/apps.48705.69582963086497758.e1cff2e3-ddf1-42bf-930d-f380ad63f100.1eb992fd-461c-4edd-9e5e-b3fbb7a41044?w=310"
-        })
+        }))
     
     console.log('Resultado save', productos)
 
