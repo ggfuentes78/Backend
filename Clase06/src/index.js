@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs/promises');
-// const { response } = require('express');
 
 const file='./productos.txt';
 const fileTest='./productos_test.txt';
