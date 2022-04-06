@@ -46,5 +46,11 @@
 		"price": "3500",
 		"thumbnail": "http://tapaRE8.jpg",
 		"id": 16
+	},
+	{
+		"nombre": "alala",
+		"price": "232",
+		"thumbnail": "sdsad",
+		"id": 17
 	}
 ]
