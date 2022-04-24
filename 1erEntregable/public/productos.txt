@@ -1,0 +1,82 @@
+[
+	{
+		"id": "071df419-6963-4503-851f-558d766f5c60",
+		"timestamp": 1650418915596,
+		"nombre": "Elden Ring",
+		"descripcion": "descripcion de Elden Ring",
+		"foto": "https://store-images.s-microsoft.com/image/apps.45643.14537704372270848.6ecb6038-5426-409a-8660-158d1eb64fb0.65bbc29b-4f5d-4381-a62a-9b6178d2f342?w=310",
+		"codigo": "071df419-6963-4503-851f-558d766f5c60",
+		"precio": "2999",
+		"stock": "10"
+	},
+	{
+		"id": "4abca11e-19c3-486b-9554-602878f369f9",
+		"timestamp": 1650418995886,
+		"nombre": "FIFA 22",
+		"descripcion": "lalala",
+		"codigo": "4abca11e-19c3-486b-9554-602878f369f9",
+		"foto": "https://store-images.s-microsoft.com/image/apps.27325.13903780539574593.941766d2-e738-4026-9276-dc9d06c9e9ac.0461ec06-49f4-454d-a8aa-e028b70c2362?w=310",
+		"precio": "2000",
+		"stock": "5"
+	},
+	{
+		"id": "1d411c51-5e65-4649-a4c0-7b92756aa25d",
+		"timestamp": 1650419230109,
+		"nombre": "PacMan Championship",
+		"descripcion": "lalala",
+		"codigo": "1d411c51-5e65-4649-a4c0-7b92756aa25d",
+		"foto": "https://store-images.s-microsoft.com/image/apps.27325.13903780539574593.941766d2-e738-4026-9276-dc9d06c9e9ac.0461ec06-49f4-454d-a8aa-e028b70c2362?w=310",
+		"precio": "200",
+		"stock": "3"
+	},
+	{
+		"id": "bc5c790c-1627-41a3-9caa-d035f62fcfb1",
+		"timestamp": 1650419264893,
+		"nombre": "Star Wars Jedi: Fallen Order",
+		"descripcion": "lalala",
+		"codigo": "bc5c790c-1627-41a3-9caa-d035f62fcfb1",
+		"foto": "https://store-images.s-microsoft.com/image/apps.52300.65392999590663672.028b6875-f925-4d40-b3a1-e44db3b4fa32.7bcb3d0f-46fc-43ea-84d1-031bd0817da2?w=310",
+		"precio": "1300",
+		"stock": "7"
+	},
+	{
+		"id": "8358b325-ec2c-4042-80b5-ccecd31ab7dd",
+		"timestamp": 1650419309643,
+		"nombre": "Sonic Mania",
+		"descripcion": "lalala",
+		"codigo": "8358b325-ec2c-4042-80b5-ccecd31ab7dd",
+		"foto": "https://store-images.s-microsoft.com/image/apps.30729.63115756613719781.d2d76a5d-bdd8-43f1-b57a-94ed7313dd94.82ae86f2-bf96-48ec-bd82-f79e488f1df8?w=310",
+		"precio": "1200",
+		"stock": "4"
+	},
+	{
+		"id": "34c83610-2d6d-4fa4-b899-13931e051466",
+		"timestamp": 1650419332126,
+		"nombre": "Reside Evil Village",
+		"descripcion": "lalala",
+		"codigo": "34c83610-2d6d-4fa4-b899-13931e051466",
+		"foto": "https://store-images.s-microsoft.com/image/apps.21384.13809253632566266.a1f3ac36-ddef-4b21-8956-5d5668ac9650.fdf71def-317c-4d65-8737-9ce6273b23fb?w=310",
+		"precio": "3500",
+		"stock": "3"
+	},
+	{
+		"id": "ab26471c-d3d5-40ee-b76e-3bc297474bb4",
+		"timestamp": 1650419416351,
+		"nombre": "GTA V",
+		"descripcion": "lalala",
+		"codigo": "ab26471c-d3d5-40ee-b76e-3bc297474bb4",
+		"foto": "https://store-images.s-microsoft.com/image/apps.7814.68565266983380288.0f5ef871-88c0-45f7-b108-6aacbc041fcf.b7e42789-b2bf-4b60-bf0a-f891f2f04226?w=310",
+		"precio": "200",
+		"stock": 9
+	},
+	{
+		"id": "e70a7b44-13c4-40d9-a636-a7eefc6ae352",
+		"timestamp": 1650813712386,
+		"nombre": "Cup Head",
+		"descripcion": "lalalaee huhusss",
+		"codigo": "e70a7b44-13c4-40d9-a636-a7eefc6ae352",
+		"foto": "https://store-images.s-microsoft.com/image/apps.22008.13670972585585116.b194a7d4-ad8d-4e23-ab53-349c6d12eba0.92dfce54-5825-4bc5-a546-cb36bcd292fe?w=310",
+		"precio": "400",
+		"stock": "12"
+	}
+]

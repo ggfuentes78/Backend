@@ -1,0 +1,56 @@
+[
+	{
+		"id": "8bf17833-3370-46e2-a62a-3707cd1a3b7f",
+		"timestamp": 1650661023938,
+		"productos": []
+	},
+	{
+		"id": "202fefda-b84d-4420-9932-5be3b07c2c23",
+		"timestamp": 1650661027589,
+		"productos": [
+			{
+				"id": "071df419-6963-4503-851f-558d766f5c60",
+				"timestamp": 1650418915596,
+				"nombre": "Pepita Pig 2",
+				"codigo": "071df419-6963-4503-851f-558d766f5c60",
+				"foto": "http://tapa.jpgddd",
+				"precio": "200",
+				"descripcion": "lala2",
+				"stock": "10",
+				"cant": 10
+			},
+			{
+				"id": "1d411c51-5e65-4649-a4c0-7b92756aa25d",
+				"timestamp": 1650419230109,
+				"nombre": "Pepita Pig 4",
+				"descripcion": "lalala",
+				"codigo": "1d411c51-5e65-4649-a4c0-7b92756aa25d",
+				"foto": "http://tapa.jpgddd",
+				"precio": "200",
+				"cant": 8
+			}
+		]
+	},
+	{
+		"id": "905a95ea-b9eb-4023-b2db-bc1dd584b4ae",
+		"timestamp": 1650661083254,
+		"productos": [
+			{
+				"id": "4abca11e-19c3-486b-9554-602878f369f9",
+				"timestamp": 1650418995886,
+				"nombre": "FIFA 22",
+				"descripcion": "lalala",
+				"codigo": "4abca11e-19c3-486b-9554-602878f369f9",
+				"foto": "https://store-images.s-microsoft.com/image/apps.27325.13903780539574593.941766d2-e738-4026-9276-dc9d06c9e9ac.0461ec06-49f4-454d-a8aa-e028b70c2362?w=310",
+				"precio": "2000",
+				"stock": "5",
+				"cant": 2
+			}
+		]
+	},
+	{
+		"id": "89e670e7-23af-410a-8c65-7cfe13c805b2",
+		"timestamp": 1650827114280,
+		"productos": []
+	}
+]

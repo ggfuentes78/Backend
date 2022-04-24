@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs/promises');
 const mainRouter = require('./routes/index');
 
-const rutaHome = path.resolve(__dirname, './views/index.html')
+// const rutaHome = path.resolve(__dirname, './views/index.html')
 
 const aplicacion = express();
 const puerto = 8080;
@@ -25,6 +25,6 @@ aplicacion.use(express.static(publicPath));
 
 aplicacion.use('/api', mainRouter);
 
-aplicacion.get('/', (request, response)=>{
-    response.sendFile(rutaHome);
-});
+// aplicacion.get('/', (request, response)=>{
+    // response.sendFile(rutaHome);
+// });

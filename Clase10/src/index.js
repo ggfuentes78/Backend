@@ -5,7 +5,6 @@ const fs = require('fs/promises');
 const mainRouter = require('./routes/index');
 const viewsPath= path.resolve(__dirname, './views');
 
-// const rutaHome = path.resolve(__dirname, './views/altaProducto')
 
 const aplicacion = express();
 const puerto = 8080;
@@ -30,7 +29,3 @@ aplicacion.use(express.static(publicPath));
 aplicacion.use('/api', mainRouter);
 
 aplicacion.use('/', mainRouter);
-
-// aplicacion.get('/', (request, response)=>{
-    // response.render('altaProductos');
-// });
