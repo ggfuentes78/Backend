@@ -1,7 +1,6 @@
 const express =require('express');
 const router = express.Router();
 const path = require('path');
-const fs = require('fs/promises');
 const { Producto } = require('../controllers/productosCtrl');
 const { generaId } = require('../controllers/varios');
 

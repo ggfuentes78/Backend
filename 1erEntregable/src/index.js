@@ -7,7 +7,7 @@ const mainRouter = require('./routes/index');
 // const rutaHome = path.resolve(__dirname, './views/index.html')
 
 const aplicacion = express();
-const puerto = 8080;
+const puerto = process.env.PORT || 8080;
 
 const servidor = aplicacion.listen(puerto,()=>{
     console.log("Server Listo. Escuchando en el puerto", puerto)
