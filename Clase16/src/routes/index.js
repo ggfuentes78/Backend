@@ -17,7 +17,6 @@ let listaProductos;
 const mwProductos = async (req,resp, next)=>{
     try{
         const prodDB= await Contenedor.init();
-        console.log ('prodbIndex',prodDB);
         let prods = await Contenedor.getAll();
         listaProductos= new Contenedor(prods);
         next()

@@ -20,7 +20,6 @@ const email = document.getElementById('email');
 const mensaje = document.getElementById('mensaje');
 const listaMensajes = document.getElementById('listaMensajes');
 const botonEnviar = document.getElementById('enviarMensaje');
-const formProdVacio= document.getElementById('formProdVacio');
 
 const generarHtml = (productos) => {
     console.log(productos)
@@ -99,17 +98,10 @@ formProd.addEventListener('submit', async (e) => {
         console.log(err);
     }
     console.log('altaProducto')
-    // socket.emit('altaProducto');
-});
-
-
-formProdVacio.addEventListener('submit', (e) => {
-    e.preventDefault();
-    socket.emit('importProductos');
 });
 
 const renderChat= (data)=> {
-    console.log(data);
+    console.log('datachat', data);
     const html = data
       .map((elem, index)=>{
         return `<p style="color: brown">
@@ -124,4 +116,11 @@ const renderChat= (data)=> {
 socket.on('listaMensajes', (data)=>{
   console.log('RECIBI MENSAJE');
   renderChat(data);
+});
+
+const formProdVacio= document.getElementById('formProdVacio');
+
+formProdVacio.addEventListener('submit', (e) => {
+    e.preventDefault();
+    socket.emit('importProductos');
 });

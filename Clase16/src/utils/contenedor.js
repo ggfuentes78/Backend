@@ -16,7 +16,6 @@ class Contenedor{
     }
 
     static init(){
-        console.log ('entre al init de productos!')
         const options = optionsMySQL;
         this.connection = knex(options);
         this.connection.schema.hasTable('productos').then((exists)=>{
@@ -65,7 +64,6 @@ class Contenedor{
     };
 
     async getById(id){ //Recibe en id y devuelve el objeto con ese id o null si no esta
-        console.log('id2', id);
         return await this.connection(tableName).where('id', id);
     };
     

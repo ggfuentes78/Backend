@@ -19,9 +19,7 @@ let productos
 
 const mwProductos = async (req,resp, next)=>{
     try{
-        console.log('holaaa')
         const prodDB= await Contenedor.init();
-        console.log ('prodb',prodDB)
         let prods = await Contenedor.getAll();
         productos= new Contenedor(prods);
         next()
@@ -39,9 +37,6 @@ router.get('/', mwProductos, (request, response)=>{
 router.post('/',mwProductos, (request, response)=>{
     // const idAsignado= productos.generaId();
     const body= request.body;
-    console.log('body',body)
-    const query =response.query;
-    console.log('query', query)
     const item= {
         nombre: body.nombre,
         precio: parseFloat(body.precio),
@@ -61,10 +56,8 @@ router.post('/',mwProductos, (request, response)=>{
 
 router.get('/:id', mwProductos, async (request, response)=>{
     const id = (request.params.id);
-    console.log('id', id)
     let producto= await productos.getById(id);
     if (producto.length){
-        console.log('pp',producto);
         response.json(producto)
     }else{
         response.status(404).json({
@@ -76,7 +69,6 @@ router.get('/:id', mwProductos, async (request, response)=>{
 router.delete('/:id', mwProductos, async(request, response)=>{
     const id = request.params.id;
     const prods=await productos.deleteById(id);
-    console.log('prods2', prods)
     if (prods!=null){
         response.json(prods)
     }else{
@@ -90,10 +82,8 @@ router.put('/:id', mwProductos, async (request, response)=>{
     console.log('newData', itemNewData)
     let producto= await productos.getById(id);
     if (producto.length){
-        console.log(producto);
         productos.updateItem(id, itemNewData);
         producto= await productos.getById(id);
-        console.log(producto);
         response.json(producto);
     }else{
         response.status(404).json({error : 'producto no encontrado'});
