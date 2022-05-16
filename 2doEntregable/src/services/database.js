@@ -2,9 +2,6 @@ const mongoose=require('mongoose');
 
 const connectionString = process.env.MONGO_ATLAS_SRV || 'mongodb://localhost:27017/gfuentes'
 
-// const connectionString = 'mongodb+srv://gfuentes:qunejaLfUo3Tw1eL@cluster0.xgxjh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
-
-
 
 const initMongoDB = async ()=>{
     try{
