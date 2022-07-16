@@ -73,23 +73,12 @@ const args = yargs
         puerto:8080,
         modo:'fork'
     })
-    // .check((args, options)=>{
-        // console.log(args.modo)
-        // if (args.modo =='cluster' || args.modo =='fork'){
-            // return true
-        // }else{
-            // throw new Error ('Modo invalido')
-        // }
-    // })
     .argv;
 
-console.log('hola mundo 2')
-// const argsFinal={
 const puerto = process.env.PORT || args['puerto']
 const modo=args['modo']
-// }
 
-// const puerto= argsFinal.puerto
+
 //Init SocketIo Server
 initWsServer(server);
 
@@ -178,6 +167,7 @@ aplicacion.use (express.json());
 aplicacion.use(express.urlencoded({extended: true}));
 
 const publicPath = path.resolve(__dirname, '../public');
+console.log("public", publicPath)
 aplicacion.use(express.static(publicPath));
 
 aplicacion.use('/api', mainRouter);

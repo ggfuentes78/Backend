@@ -2,7 +2,7 @@ const express =require('express');
 const router = express.Router();
 const fs = require('fs/promises');
 const knex = require('knex');
-const optionsMySQL = require('../../options/mariaDB');
+const optionsMySQL = require('../../options/postgres');
 
 const tableName = 'productos'
 

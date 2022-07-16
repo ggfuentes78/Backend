@@ -1,0 +1,281 @@
+error | 07-15-2022 19:57:15 | Algo salio mal - TypeError: Cannot read properties of undefined (reading 'email')
+error | 07-15-2022 21:30:31 | Error al recuperar los productos - TypeError: Contenedor.init is not a function
+error | 07-15-2022 22:23:16 | Error al recuperar los productos - TypeError: Contenedor.init is not a function
+error | 07-15-2022 22:42:20 | Error al recuperar los productos - TypeError: Contenedor.init is not a function
+error | 07-15-2022 22:42:24 | Error al recuperar los productos - TypeError: Contenedor.init is not a function
+error | 07-15-2022 22:42:28 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:1
+  > 1| if productos.length==0 
+    2|     H3(class="ms-4 mt-5") No hay productos
+    3|     form(id="formProdVacio" class="ms-4 mt-5" style="width:50%;")
+    4|         button(id="cargarProductos" type="submit" class="btn btn-primary") Cargar Productos en BD
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 22:45:51 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:1
+  > 1| if productos.length==0 
+    2|     H3(class="ms-4 mt-5") No hay productos
+    3|     form(id="formProdVacio" class="ms-4 mt-5" style="width:50%;")
+    4|         button(id="cargarProductos" type="submit" class="btn btn-primary") Cargar Productos en BD
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 22:47:09 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:1
+  > 1| if productos.length==0 
+    2|     H3(class="ms-4 mt-5") No hay productos
+    3|     form(id="formProdVacio" class="ms-4 mt-5" style="width:50%;")
+    4|         button(id="cargarProductos" type="submit" class="btn btn-primary") Cargar Productos en BD
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 22:47:17 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:1
+  > 1| if productos.length==0 
+    2|     H3(class="ms-4 mt-5") No hay productos
+    3|     form(id="formProdVacio" class="ms-4 mt-5" style="width:50%;")
+    4|         button(id="cargarProductos" type="submit" class="btn btn-primary") Cargar Productos en BD
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 22:47:22 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:1
+  > 1| if productos.length==0 
+    2|     H3(class="ms-4 mt-5") No hay productos
+    3|     form(id="formProdVacio" class="ms-4 mt-5" style="width:50%;")
+    4|         button(id="cargarProductos" type="submit" class="btn btn-primary") Cargar Productos en BD
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 22:47:33 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:1
+  > 1| if productos.length==0 
+    2|     H3(class="ms-4 mt-5") No hay productos
+    3|     form(id="formProdVacio" class="ms-4 mt-5" style="width:50%;")
+    4|         button(id="cargarProductos" type="submit" class="btn btn-primary") Cargar Productos en BD
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 22:49:27 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 22:51:37 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 22:51:52 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 23:13:57 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 23:16:14 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 23:24:13 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 23:25:41 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 23:27:45 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 23:27:59 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 23:31:59 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 23:33:41 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-15-2022 23:44:19 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 00:06:55 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 00:07:43 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 00:16:22 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 00:16:36 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 00:24:36 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 00:24:44 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 15:00:43 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 15:06:55 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 15:24:14 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 15:24:24 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 15:24:26 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 15:25:53 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 15:47:19 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')
+error | 07-16-2022 15:52:26 | Algo salio mal - TypeError: C:\Users\gfuentes\Documents\Coder House\Full Stack\Backend\Entregables\Clase38\views\components\listaProductos.pug:14
+    12|                 th(id="precio" class="fs-4") PRECIO 
+    13|                 th(id="thumbnail" class="fs-4") TAPA
+  > 14|             each prod in productos
+    15|                 tr
+    16|                     td(class="fs-5")=prod.id 
+    17|                     td(class="fs-5")=prod.nombre 
+
+Cannot read properties of undefined (reading 'length')

@@ -7,3 +7,4 @@ warn | 06-21-2022 19:56:33 | Ruta no definida - Se intento acceder a la ruta /in
 warn | 06-21-2022 19:56:53 | Ruta no definida - Se intento acceder a la ruta /hjhj con el metodo GET
 warn | 06-21-2022 20:08:39 | Ruta no definida - Se intento acceder a la ruta /infolll con el metodo GET
 error | 06-21-2022 23:42:34 | Error de prueba
+error | 06-28-2022 12:30:58 | Error al recuperar los productos - Error: connect ECONNREFUSED 127.0.0.1:3306

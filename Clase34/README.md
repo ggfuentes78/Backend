@@ -1,4 +1,4 @@
-# Desafio Clase 32 - Loggers, Gzip y Analisis de performance
+# Desafio Clase 34 - Loggers, Gzip y Analisis de performance
 
 
 El proyecto usa 2 bases de datos: 

@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Elden Ring",
+        "price": 2999,
+        "thumbnail": "https://store-images.s-microsoft.com/image/apps.45643.14537704372270848.6ecb6038-5426-409a-8660-158d1eb64fb0.65bbc29b-4f5d-4381-a62a-9b6178d2f342?w=310",
+        "id": 1
+    },
+    {
+        "title": "FIFA 22",
+        "price": 2500,
+        "thumbnail": "https://store-images.s-microsoft.com/image/apps.27325.13903780539574593.941766d2-e738-4026-9276-dc9d06c9e9ac.0461ec06-49f4-454d-a8aa-e028b70c2362?w=310",
+        "id": 2
+    },
+     {
+     "title": "Star Wars Jedi: Fallen Order",
+     "price": 650,
+     "thumbnail": "https://store-images.s-microsoft.com/image/apps.52300.65392999590663672.028b6875-f925-4d40-b3a1-e44db3b4fa32.7bcb3d0f-46fc-43ea-84d1-031bd0817da2?w=310",
+     "id": 3
+    }
+]
+   

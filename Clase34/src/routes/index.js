@@ -4,7 +4,7 @@ const router = express.Router();
 
 //Routers
 const routerProductos = require('./productos');
-const routerProductosTest = require('./productos-test');
+// const routerProductosTest = require('./productos-test');
 const routerInfo = require('./info');
 const routerRandoms = require('./randoms'); 
 
@@ -141,7 +141,7 @@ router.use('/randoms', loggeoPeticiones, routerRandoms);
 
 router.use('/productos', loggeoPeticiones, routerProductos);
 
-router.use('/productos-test', loggeoPeticiones, routerProductosTest);
+// router.use('/productos-test', loggeoPeticiones, routerProductosTest);
 
 router.use(function(req, res, next) {
     const msg404= 'Ruta no definida'

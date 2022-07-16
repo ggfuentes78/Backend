@@ -1,1 +1,2 @@
 error | 06-21-2022 23:42:34 | Error de prueba
+error | 06-28-2022 12:30:58 | Error al recuperar los productos - Error: connect ECONNREFUSED 127.0.0.1:3306
