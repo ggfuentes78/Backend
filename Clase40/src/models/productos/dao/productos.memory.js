@@ -82,7 +82,6 @@ class DaoProductos{
     };
 }
 
-// const Productos= DaoProductos.getInstance()
 
 module.exports= DaoProductos
 

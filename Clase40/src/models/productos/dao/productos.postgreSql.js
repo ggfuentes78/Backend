@@ -5,26 +5,13 @@ const ProductosDTO= require('../dto/productos');
 
 
 class DaoProductos{
-        // connection;
-        // tableName;
         static instance;
         productos;
 
-               
-        // constructor(conn, table){
-                // this.connection=conn;
-                // this.tableName=table
-                // this.productos= async () => await DaoProductos.buscarProductos()
-                // const aaa= this.productos
-                // console.log('ppp', aaa)
-        // }
         static async getInstance(){
                 if(!DaoProductos.instance){
-                        // connection=await ConnectionProds.init();
                         logger.info('Inicializando DAO SQL de Productos');
                         DaoProductos.instance= new DaoProductos();
-                        // this.connection=connection;
-                        console.log('dPI',this.instance)
                 }
                 return DaoProductos.instance;
         }
@@ -55,8 +42,6 @@ class DaoProductos{
         };
 };
 
-// const Productos = new DaoProductos()
-// const Productos = DaoProductos.getInstance()
+
 
 module.exports= DaoProductos
-// module.exports={guardarProducto, actualizarProducto,buscarProductoPorId,buscarProductos,borrarProductoPorId}

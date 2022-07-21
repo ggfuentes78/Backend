@@ -2,7 +2,7 @@ const ProductosFsDao = require('../dao/productos.fs');
 const ProductosPgSqlDao = require('../dao/productos.postgreSql');
 const ProductosMemDao= require('../dao/productos.memory');
 const {logger} = require('../../../services/logger');
-// const tipoPersistencia = require('../../index').dao
+
 
 class ProductosFactoryDAO {
     

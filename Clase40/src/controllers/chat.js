@@ -34,7 +34,6 @@ class ChatHistoria{
         try{
             const mensajesOriginales = await cargarMesajes();
             const mensajesNormalizados = normalize(mensajesOriginales, schemaMensajes);
-            // console.log('Datos Normalizados:', util.inspect(mensajesNormalizados, true, 7, true));
             return mensajesNormalizados;
         }catch(error){
             logger.error('Error', error)

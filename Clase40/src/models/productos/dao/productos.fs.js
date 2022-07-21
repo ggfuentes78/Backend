@@ -64,7 +64,7 @@ class DaoProductos{
 
     static async getProds(){ //Devuelve un arrayon los objetos presentes en el archivo 
         const listaProductos= JSON.parse(await fs.readFile(ruta, 'utf-8'))
-        return listaProductos//.map((prod)=> new ProductosDTO(prod));
+        return listaProductos
     };
     
     async borrarProductoPorId(id){ // Elimina del archivo el objeto con el id buscado
@@ -81,19 +81,5 @@ class DaoProductos{
 }
 
 
-
-// aplicacion.get('/productos', async (request, response)=>{
-    // try{
-        // let prods = await Contenedor.getAll(ruta);
-        // let prodsJson = JSON.parse(prods);
-        // const productos= new Contenedor(prodsJson);
-        // response.json(productos)
-    // }
-    // catch(err){
-        // console.log('Error al recuperar los productos', err)
-    // }
-// });
-
-// const Productos= new DaoProductos()
 
 module.exports= DaoProductos

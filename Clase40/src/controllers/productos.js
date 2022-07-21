@@ -7,8 +7,6 @@ let productosDao;
 ProductosAPI.getInstance().then((instance)=>{
     productosDao = instance;
 });
-console.log('ProdsAPI')
-console.log('ProdsDAO, instance---', productosDao)
 
 const validaItem=(item)=>{
     let itemOK
@@ -59,7 +57,6 @@ const getById=async(id)=>{ //Recibe en id y devuelve el objeto con ese id o null
 const getAll= async ()=>{ //Devuelve un array con los objetos presentes en el archivo 
       //const options = optionsMySQL;
       //this.connection = knex(options);
-      console.log('o por aca?')
     const listaProductos= {productos: await productosDao.buscarProductos()}
     return listaProductos
 };
@@ -84,9 +81,7 @@ const getProducts = async (req,resp, next)=>{
     try{
         // const prodDB= await Contenedor.init();
         // let prods = await Contenedor.getAll();
-        console.log('por aca?', productosDao)
         listaProductos= {productos: await productosDao.buscarProductos()}//new Producto(prods);
-        console.log('volvi', productosDao)
         logger.info(`Productos recuperados`)
         next()
     }
